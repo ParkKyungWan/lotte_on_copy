@@ -1,89 +1,49 @@
 import React from 'react';
 import './song.css';
+import Header from './components/Header'; 
+import Footer from './components/Footer';
+import eco from '../song/eco.png';
+import Grid from '@material-ui/core/Grid';
 
 //var htmlContent = require('./index.html');
+
 
 function Song() {
 
   return (
     <React.Fragment>
-    <div className="container">
-      <div className="top">
-        <h6 className={'top-of-topStyle'}>고객센터</h6> 
-        <pre className={'top-of-topStyle'}>  </pre>
-        <h6 className={'top-of-topStyle'}>주문배송</h6> 
-        <pre className={'top-of-topStyle'}>  </pre>
-        <h6 className={'top-of-topStyle'}>회원가입</h6>
-        <pre className={'top-of-topStyle'}>  </pre>
-        <h6 className={'top-of-topStyle'}>로그인</h6> 
-      </div>
+    <div>
+    <Header/>
 
-      
-      <br/><br/>
-
-      <img className={'logo'} src="song/logo.PNG" alt="lotte-on logo"></img>
-
-      <form className={'form'}>
-        <input className={'search-bar'} type="text" placeholder="물"></input>  
-
-        <input className={'link-bar'} type="image" src="song/cart.PNG" alt="장바구니"></input>
-        <input className={'link-bar'} type="image" src="song/lotte.PNG" alt="마이롯데"></input>
-        <input className={'link-bar'} type="image" src="song/heart.PNG" alt="나의 찜"></input>
-        <input className={'link-bar'} type="image" src="song/chat.PNG" alt="챗봇"></input>
-      </form> 
-
-      <br/><br/>
-      
-      <hr className={'top-line'}></hr>
-
-      <nav className={'nav'}>
-        <input type="image" src="song/drop.PNG" alt=""></input>
-        <a className={'nav-link'} href="#">오늘ON</a>
-        <a className={'nav-link'} href="#">타임딜</a>
-        <a className={'nav-link'} href="#">장보기</a>
-        <a className={'nav-link'} href="#">백화점</a>
-        <a className={'nav-link'} href="#">명품ON</a>
-        <a className={'nav-link'} href="#">뷰티넘버원</a>
-        <a className={'nav-link'} href="#">오늘발송</a>
-        <a className={'nav-link'} href="#">내관심</a>
-        <a className={'nav-link'} href="#">이벤트존</a>
-
-        <li className="nav-item-dropdown">
-         <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-           1 &nbsp;&nbsp;&nbsp; 아이시스 8.0 에코
-         </a>
-        </li>
-      </nav>
-
-      <hr className={'bottom-line'}></hr>
 
     </div>
 
     <div>
-        {/* CSS only */}
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossOrigin="anonymous" />
-        {/* JS, Popper.js, and jQuery */}
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#000000" />
-        <meta name="description" content="Web site created using create-react-app" />
-        <link rel="icon" sizes="32x32" href="https://static.lotteon.com/p/common/assets/favicon/1/favicon-32.png" />
-        {/*
+         {/* CSS only */}
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossOrigin="anonymous" />
+          {/* JS, Popper.js, and jQuery */}
+          <meta charSet="utf-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta name="theme-color" content="#000000" />
+          <meta name="description" content="Web site created using create-react-app" />
+          <link rel="icon" sizes="32x32" href="https://static.lotteon.com/p/common/assets/favicon/1/favicon-32.png" />
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+          <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+          {/*
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     */}
-        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-        {/*
+          <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+          {/*
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
-
       Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     */}
-        <title>몰 : 롯데ON</title>
-        <noscript>You need to enable JavaScript to run this app.</noscript>
+          <title>물 : 롯데ON</title>
+          <noscript>You need to enable JavaScript to run this app.</noscript>
         <div id="root" />
         <div className="container">
           <br /><br />
@@ -320,12 +280,19 @@ function Song() {
         </div>
         <div className="content-area">
           <div className="card">
+          <Grid container spacing = {5}>
+            <Grid item xs={3}>
+            <img src={eco} className="card-img-header" />
+            </Grid>
+            <Grid item xs={9} >
+            <p className="card-header-text"> 정기 수거 제품입니다 </p> 
+              </Grid>
+              </Grid>
             <a href="https://www.lotteon.com/p/product/LO1024511029?areaCode=AD&entryPoint=ad&clickId=C3686721098">
               <img src="https://contents.lotteon.com/itemimage/LO/10/24/51/10/29/_1/02/45/11/03/0/LO1024511029_1024511030_1.jpg" className="card-img-top" alt="..." />
             </a>
             <div className="card-body">
               <a href="https://www.lotteon.com/p/product/LO1024511029?areaCode=AD&entryPoint=ad&clickId=C3686721098">
-                <p className="card-text">🌳Save the Earth🌳</p>
                 <h5 className="card-title">아이시스8.0에코 1.5L</h5>
                 <p className="card-text">⭐4.6 (33) | 월간구매139</p>
                 <h5 className="card-price1">7,960<span className="won1">원</span></h5>
@@ -334,12 +301,19 @@ function Song() {
             </div>
           </div>
           <div className="card">
+          <Grid container spacing = {5}>
+            <Grid item xs={3}>
+            <img src={eco} className="card-img-header" />
+            </Grid>
+            <Grid item xs={9} >
+            <p className="card-header-text"> 정기 수거 제품입니다 </p> 
+              </Grid>
+              </Grid>
             <a href="https://www.lotteon.com/p/product/LO1024511029?areaCode=AD&entryPoint=ad&clickId=C3686721098">
               <img src="https://contents.lotteon.com/itemimage/LO/10/24/51/10/29/_1/02/45/11/03/0/LO1024511029_1024511030_1.jpg" className="card-img-top" alt="..." />
             </a>
             <div className="card-body">
               <a href="https://www.lotteon.com/p/product/LO1024511029?areaCode=AD&entryPoint=ad&clickId=C3686721098">
-                <p className="card-text">🌳Save the Earth🌳</p>
                 <h5 className="card-title">아이시스8.0에코 1.5L</h5>
                 <p className="card-text">⭐4.6 (33) | 월간구매139</p>
                 <h5 className="card-price1">7,960<span className="won1">원</span></h5>
@@ -348,12 +322,19 @@ function Song() {
             </div>
           </div>
           <div className="card">
+          <Grid container spacing = {5}>
+            <Grid item xs={3}>
+            <img src={eco} className="card-img-header" />
+            </Grid>
+            <Grid item xs={9} >
+            <p className="card-header-text"> 정기 수거 제품입니다 </p> 
+              </Grid>
+              </Grid>
             <a href="https://www.lotteon.com/p/product/LO1024511029?areaCode=AD&entryPoint=ad&clickId=C3686721098">
               <img src="https://contents.lotteon.com/itemimage/LO/10/24/51/10/29/_1/02/45/11/03/0/LO1024511029_1024511030_1.jpg" className="card-img-top" alt="..." />
             </a>
             <div className="card-body">
               <a href="https://www.lotteon.com/p/product/LO1024511029?areaCode=AD&entryPoint=ad&clickId=C3686721098">
-                <p className="card-text">🌳Save the Earth🌳</p>
                 <h5 className="card-title">아이시스8.0에코 1.5L</h5>
                 <p className="card-text">⭐4.6 (33) | 월간구매139</p>
                 <h5 className="card-price1">7,960<span className="won1">원</span></h5>
@@ -362,12 +343,19 @@ function Song() {
             </div>
           </div>
           <div className="card">
+          <Grid container spacing = {5}>
+            <Grid item xs={3}>
+            <img src={eco} className="card-img-header" />
+            </Grid>
+            <Grid item xs={9} >
+            <p className="card-header-text"> 정기 수거 제품입니다 </p> 
+              </Grid>
+              </Grid>
             <a href="https://www.lotteon.com/p/product/LO1024511029?areaCode=AD&entryPoint=ad&clickId=C3686721098">
               <img src="https://contents.lotteon.com/itemimage/LO/10/24/51/10/29/_1/02/45/11/03/0/LO1024511029_1024511030_1.jpg" className="card-img-top" alt="..." />
             </a>
             <div className="card-body">
               <a href="https://www.lotteon.com/p/product/LO1024511029?areaCode=AD&entryPoint=ad&clickId=C3686721098">
-                <p className="card-text">🌳Save the Earth🌳</p>
                 <h5 className="card-title">아이시스8.0에코 1.5L</h5>
                 <p className="card-text">⭐4.6 (33) | 월간구매139</p>
                 <h5 className="card-price1">7,960<span className="won1">원</span></h5>
@@ -657,7 +645,8 @@ function Song() {
             <a className="nextpage" href="#">35</a>
           </ul>
         </div>
-      </div>
+     </div>
+      <Footer/>
     </React.Fragment>
 
 
@@ -666,4 +655,3 @@ function Song() {
 }
 
 export default Song;
-  
