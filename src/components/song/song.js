@@ -285,7 +285,7 @@ function Song() {
             <img src={eco} className="card-img-header" />
             </Grid>
             <Grid item xs={9} >
-            <p className="card-header-text"> 정기배송/수거 제품 </p> 
+            <p className="card-header-text"> 정기 배송/수거 제품 </p> 
               </Grid>
               </Grid>
             <a href="/detail">
@@ -313,7 +313,7 @@ function Song() {
             <img src={eco} className="card-img-header" />
             </Grid>
             <Grid item xs={9} >
-            <p className="card-header-text"> 정기배송/수거 제품 </p> 
+            <p className="card-header-text"> 정기 배송/수거 제품 </p> 
               </Grid>
               </Grid>
             <a href="/detail">

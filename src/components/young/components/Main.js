@@ -254,11 +254,11 @@ handleDecrease2 = () => {
                       App으로보기
                     </Button>
                   </div>
-                  <div style={{ marginTop: "10px" }}>
+                  <div style={{ marginLeft: "10px",marginTop: "10px" , textAlign:"left"}}>
                     <h2 style={{ display: "inline" }}>7960원</h2>
                     <h8> (100ml당 44원, 총 18000ml)</h8>
                   </div>
-                  <div style={{ marginTop: "10px" }}>
+                  <div style={{marginLeft: "10px", marginTop: "10px" , textAlign:"left"}}>
                     <h3 style={{ display: "inline", color: "purple" }}>
                       7890원
                     </h3>
