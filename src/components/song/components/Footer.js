@@ -12,8 +12,8 @@ import Button from "@material-ui/core/Button";
       marginTop: '100px',
       paddingRight: '50PX',
       backgroundColor:
-        theme.palette.type === 'light' ? theme.palette.grey[200] : theme.palette.grey[800],
- 
+      theme.palette.type === 'light' ? theme.palette.grey[200] : theme.palette.grey[800],
+      
     },
   }));
   
@@ -31,7 +31,7 @@ function Footer(props) {
             </Grid>
             <Grid item xs={4} >
             
-          <Typography  color="textSecondary">
+          <Typography  color="textSecondary" >
               <b>롯데쇼핑 주식회사</b><br></br>
               {'대표이사 : 강희태'}<br></br>
               {'주소 : 서울특별시 송파구 올림픽로'}<br></br>

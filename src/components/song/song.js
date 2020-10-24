@@ -285,14 +285,21 @@ function Song() {
             <img src={eco} className="card-img-header" />
             </Grid>
             <Grid item xs={9} >
-            <p className="card-header-text"> 정기 수거 제품입니다 </p> 
+            <p className="card-header-text"> 정기배송/수거 제품 </p> 
               </Grid>
               </Grid>
-            <a href="https://www.lotteon.com/p/product/LO1024511029?areaCode=AD&entryPoint=ad&clickId=C3686721098">
+            <a href="/detail">
               <img src="https://contents.lotteon.com/itemimage/LO/10/24/51/10/29/_1/02/45/11/03/0/LO1024511029_1024511030_1.jpg" className="card-img-top" alt="..." />
             </a>
+            <div
+              style={{
+              width: "100%",
+              borderBottom: "1px solid lightgray",
+              marginTop: "20px",
+                      }}
+            ></div>
             <div className="card-body">
-              <a href="https://www.lotteon.com/p/product/LO1024511029?areaCode=AD&entryPoint=ad&clickId=C3686721098">
+              <a href="/detail">
                 <h5 className="card-title">아이시스8.0에코 1.5L</h5>
                 <p className="card-text">⭐4.6 (33) | 월간구매139</p>
                 <h5 className="card-price1">7,960<span className="won1">원</span></h5>
@@ -306,14 +313,21 @@ function Song() {
             <img src={eco} className="card-img-header" />
             </Grid>
             <Grid item xs={9} >
-            <p className="card-header-text"> 정기 수거 제품입니다 </p> 
+            <p className="card-header-text"> 정기배송/수거 제품 </p> 
               </Grid>
               </Grid>
-            <a href="https://www.lotteon.com/p/product/LO1024511029?areaCode=AD&entryPoint=ad&clickId=C3686721098">
+            <a href="/detail">
               <img src="https://contents.lotteon.com/itemimage/LO/10/24/51/10/29/_1/02/45/11/03/0/LO1024511029_1024511030_1.jpg" className="card-img-top" alt="..." />
             </a>
+            <div
+              style={{
+              width: "100%",
+              borderBottom: "1px solid lightgray",
+              marginTop: "20px",
+                      }}
+            ></div>
             <div className="card-body">
-              <a href="https://www.lotteon.com/p/product/LO1024511029?areaCode=AD&entryPoint=ad&clickId=C3686721098">
+              <a href="/detail">
                 <h5 className="card-title">아이시스8.0에코 1.5L</h5>
                 <p className="card-text">⭐4.6 (33) | 월간구매139</p>
                 <h5 className="card-price1">7,960<span className="won1">원</span></h5>
@@ -327,14 +341,21 @@ function Song() {
             <img src={eco} className="card-img-header" />
             </Grid>
             <Grid item xs={9} >
-            <p className="card-header-text"> 정기 수거 제품입니다 </p> 
+            <p className="card-header-text"> 정기 배송/수거 제품</p> 
               </Grid>
               </Grid>
-            <a href="https://www.lotteon.com/p/product/LO1024511029?areaCode=AD&entryPoint=ad&clickId=C3686721098">
+            <a href="/detail">
               <img src="https://contents.lotteon.com/itemimage/LO/10/24/51/10/29/_1/02/45/11/03/0/LO1024511029_1024511030_1.jpg" className="card-img-top" alt="..." />
             </a>
+            <div
+              style={{
+              width: "100%",
+              borderBottom: "1px solid lightgray",
+              marginTop: "20px",
+                      }}
+            ></div>
             <div className="card-body">
-              <a href="https://www.lotteon.com/p/product/LO1024511029?areaCode=AD&entryPoint=ad&clickId=C3686721098">
+              <a href="/detail">
                 <h5 className="card-title">아이시스8.0에코 1.5L</h5>
                 <p className="card-text">⭐4.6 (33) | 월간구매139</p>
                 <h5 className="card-price1">7,960<span className="won1">원</span></h5>
@@ -348,14 +369,21 @@ function Song() {
             <img src={eco} className="card-img-header" />
             </Grid>
             <Grid item xs={9} >
-            <p className="card-header-text"> 정기 수거 제품입니다 </p> 
+            <p className="card-header-text"> 정기 배송/수거 제품 </p> 
               </Grid>
               </Grid>
-            <a href="https://www.lotteon.com/p/product/LO1024511029?areaCode=AD&entryPoint=ad&clickId=C3686721098">
+            <a href="/detail">
               <img src="https://contents.lotteon.com/itemimage/LO/10/24/51/10/29/_1/02/45/11/03/0/LO1024511029_1024511030_1.jpg" className="card-img-top" alt="..." />
             </a>
+            <div
+              style={{
+              width: "100%",
+              borderBottom: "1px solid lightgray",
+              marginTop: "20px",
+                      }}
+            ></div>
             <div className="card-body">
-              <a href="https://www.lotteon.com/p/product/LO1024511029?areaCode=AD&entryPoint=ad&clickId=C3686721098">
+              <a href="/detail">
                 <h5 className="card-title">아이시스8.0에코 1.5L</h5>
                 <p className="card-text">⭐4.6 (33) | 월간구매139</p>
                 <h5 className="card-price1">7,960<span className="won1">원</span></h5>
@@ -368,7 +396,15 @@ function Song() {
           <div className="card">
             <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
               <img src="https://contents.lotteon.com/itemimage/LD/66/36/77/65/1_/0/LD663677651_0_1.jpg" className="card-img-top" alt="..." />
+              
             </a>
+            <div
+              style={{
+              width: "100%",
+              borderBottom: "1px solid lightgray",
+              marginTop: "20px",
+                      }}
+            ></div>
             <div className="card-body">
               <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
                 <h5 className="card-title">아이시스8.0 생수 2L*24펫</h5>
@@ -382,6 +418,13 @@ function Song() {
             <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
               <img src="https://contents.lotteon.com/itemimage/LD/66/36/77/65/1_/0/LD663677651_0_1.jpg" className="card-img-top" alt="..." />
             </a>
+            <div
+              style={{
+              width: "100%",
+              borderBottom: "1px solid lightgray",
+              marginTop: "20px",
+                      }}
+            ></div>
             <div className="card-body">
               <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
                 <h5 className="card-title">아이시스8.0 생수 2L*24펫</h5>
@@ -395,6 +438,13 @@ function Song() {
             <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
               <img src="https://contents.lotteon.com/itemimage/LD/66/36/77/65/1_/0/LD663677651_0_1.jpg" className="card-img-top" alt="..." />
             </a>
+            <div
+              style={{
+              width: "100%",
+              borderBottom: "1px solid lightgray",
+              marginTop: "20px",
+                      }}
+            ></div>
             <div className="card-body">
               <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
                 <h5 className="card-title">아이시스8.0 생수 2L*24펫</h5>
@@ -408,60 +458,13 @@ function Song() {
             <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
               <img src="https://contents.lotteon.com/itemimage/LD/66/36/77/65/1_/0/LD663677651_0_1.jpg" className="card-img-top" alt="..." />
             </a>
-            <div className="card-body">
-              <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
-                <h5 className="card-title">아이시스8.0 생수 2L*24펫</h5>
-                <p className="card-text">⭐4.8 (184) | 월간구매517</p>
-                <h5 className="card-price1">16,900<span className="won1">원</span></h5>
-                <h5 className="card-price2">16,740<span className="won2">원 💎추가 1%</span></h5>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="content-area">
-          <div className="card">
-            <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
-              <img src="https://contents.lotteon.com/itemimage/LD/66/36/77/65/1_/0/LD663677651_0_1.jpg" className="card-img-top" alt="..." />
-            </a>
-            <div className="card-body">
-              <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
-                <h5 className="card-title">아이시스8.0 생수 2L*24펫</h5>
-                <p className="card-text">⭐4.8 (184) | 월간구매517</p>
-                <h5 className="card-price1">16,900<span className="won1">원</span></h5>
-                <h5 className="card-price2">16,740<span className="won2">원 💎추가 1%</span></h5>
-              </a>
-            </div>
-          </div>
-          <div className="card">
-            <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
-              <img src="https://contents.lotteon.com/itemimage/LD/66/36/77/65/1_/0/LD663677651_0_1.jpg" className="card-img-top" alt="..." />
-            </a>
-            <div className="card-body">
-              <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
-                <h5 className="card-title">아이시스8.0 생수 2L*24펫</h5>
-                <p className="card-text">⭐4.8 (184) | 월간구매517</p>
-                <h5 className="card-price1">16,900<span className="won1">원</span></h5>
-                <h5 className="card-price2">16,740<span className="won2">원 💎추가 1%</span></h5>
-              </a>
-            </div>
-          </div>
-          <div className="card">
-            <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
-              <img src="https://contents.lotteon.com/itemimage/LD/66/36/77/65/1_/0/LD663677651_0_1.jpg" className="card-img-top" alt="..." />
-            </a>
-            <div className="card-body">
-              <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
-                <h5 className="card-title">아이시스8.0 생수 2L*24펫</h5>
-                <p className="card-text">⭐4.8 (184) | 월간구매517</p>
-                <h5 className="card-price1">16,900<span className="won1">원</span></h5>
-                <h5 className="card-price2">16,740<span className="won2">원 💎추가 1%</span></h5>
-              </a>
-            </div>
-          </div>
-          <div className="card">
-            <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
-              <img src="https://contents.lotteon.com/itemimage/LD/66/36/77/65/1_/0/LD663677651_0_1.jpg" className="card-img-top" alt="..." />
-            </a>
+            <div
+              style={{
+              width: "100%",
+              borderBottom: "1px solid lightgray",
+              marginTop: "20px",
+                      }}
+            ></div>
             <div className="card-body">
               <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
                 <h5 className="card-title">아이시스8.0 생수 2L*24펫</h5>
@@ -477,6 +480,13 @@ function Song() {
             <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
               <img src="https://contents.lotteon.com/itemimage/LD/66/36/77/65/1_/0/LD663677651_0_1.jpg" className="card-img-top" alt="..." />
             </a>
+            <div
+              style={{
+              width: "100%",
+              borderBottom: "1px solid lightgray",
+              marginTop: "20px",
+                      }}
+            ></div>
             <div className="card-body">
               <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
                 <h5 className="card-title">아이시스8.0 생수 2L*24펫</h5>
@@ -490,6 +500,32 @@ function Song() {
             <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
               <img src="https://contents.lotteon.com/itemimage/LD/66/36/77/65/1_/0/LD663677651_0_1.jpg" className="card-img-top" alt="..." />
             </a>
+            <div
+              style={{
+              width: "100%",
+              borderBottom: "1px solid lightgray",
+              marginTop: "20px",
+                      }}
+            ></div>
+            <div className="card-body">
+              <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
+                <h5 className="card-title">아이시스8.0 생수 2L*24펫</h5>
+                <p className="card-text">⭐4.8 (184) | 월간구매517</p>
+                <h5 className="card-price1">16,900<span className="won1">원</span></h5>
+                <h5 className="card-price2">16,740<span className="won2">원 💎추가 1%</span></h5>
+              </a>
+            </div>
+          </div>
+          <div className="card">
+            <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
+              <img src="https://contents.lotteon.com/itemimage/LD/66/36/77/65/1_/0/LD663677651_0_1.jpg" className="card-img-top" alt="..." />
+            </a><div 
+              style={{
+              width: "100%",
+              borderBottom: "1px solid lightgray",
+              marginTop: "20px",
+                      }}
+            ></div>
             <div className="card-body">
               <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
                 <h5 className="card-title">아이시스8.0 생수 2L*24펫</h5>
@@ -503,19 +539,13 @@ function Song() {
             <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
               <img src="https://contents.lotteon.com/itemimage/LD/66/36/77/65/1_/0/LD663677651_0_1.jpg" className="card-img-top" alt="..." />
             </a>
-            <div className="card-body">
-              <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
-                <h5 className="card-title">아이시스8.0 생수 2L*24펫</h5>
-                <p className="card-text">⭐4.8 (184) | 월간구매517</p>
-                <h5 className="card-price1">16,900<span className="won1">원</span></h5>
-                <h5 className="card-price2">16,740<span className="won2">원 💎추가 1%</span></h5>
-              </a>
-            </div>
-          </div>
-          <div className="card">
-            <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
-              <img src="https://contents.lotteon.com/itemimage/LD/66/36/77/65/1_/0/LD663677651_0_1.jpg" className="card-img-top" alt="..." />
-            </a>
+            <div
+              style={{
+              width: "100%",
+              borderBottom: "1px solid lightgray",
+              marginTop: "20px",
+                      }}
+            ></div>
             <div className="card-body">
               <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
                 <h5 className="card-title">아이시스8.0 생수 2L*24펫</h5>
@@ -531,6 +561,13 @@ function Song() {
             <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
               <img src="https://contents.lotteon.com/itemimage/LD/66/36/77/65/1_/0/LD663677651_0_1.jpg" className="card-img-top" alt="..." />
             </a>
+            <div
+              style={{
+              width: "100%",
+              borderBottom: "1px solid lightgray",
+              marginTop: "20px",
+                      }}
+            ></div>
             <div className="card-body">
               <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
                 <h5 className="card-title">아이시스8.0 생수 2L*24펫</h5>
@@ -544,6 +581,13 @@ function Song() {
             <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
               <img src="https://contents.lotteon.com/itemimage/LD/66/36/77/65/1_/0/LD663677651_0_1.jpg" className="card-img-top" alt="..." />
             </a>
+            <div
+              style={{
+              width: "100%",
+              borderBottom: "1px solid lightgray",
+              marginTop: "20px",
+                      }}
+            ></div>
             <div className="card-body">
               <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
                 <h5 className="card-title">아이시스8.0 생수 2L*24펫</h5>
@@ -557,6 +601,13 @@ function Song() {
             <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
               <img src="https://contents.lotteon.com/itemimage/LD/66/36/77/65/1_/0/LD663677651_0_1.jpg" className="card-img-top" alt="..." />
             </a>
+            <div
+              style={{
+              width: "100%",
+              borderBottom: "1px solid lightgray",
+              marginTop: "20px",
+                      }}
+            ></div>
             <div className="card-body">
               <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
                 <h5 className="card-title">아이시스8.0 생수 2L*24펫</h5>
@@ -570,6 +621,95 @@ function Song() {
             <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
               <img src="https://contents.lotteon.com/itemimage/LD/66/36/77/65/1_/0/LD663677651_0_1.jpg" className="card-img-top" alt="..." />
             </a>
+            <div
+              style={{
+              width: "100%",
+              borderBottom: "1px solid lightgray",
+              marginTop: "20px",
+                      }}
+            ></div>
+            <div className="card-body">
+              <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
+                <h5 className="card-title">아이시스8.0 생수 2L*24펫</h5>
+                <p className="card-text">⭐4.8 (184) | 월간구매517</p>
+                <h5 className="card-price1">16,900<span className="won1">원</span></h5>
+                <h5 className="card-price2">16,740<span className="won2">원 💎추가 1%</span></h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="content-area">
+          <div className="card">
+            <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
+              <img src="https://contents.lotteon.com/itemimage/LD/66/36/77/65/1_/0/LD663677651_0_1.jpg" className="card-img-top" alt="..." />
+            </a>
+            <div
+              style={{
+              width: "100%",
+              borderBottom: "1px solid lightgray",
+              marginTop: "20px",
+                      }}
+            ></div>
+            <div className="card-body">
+              <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
+                <h5 className="card-title">아이시스8.0 생수 2L*24펫</h5>
+                <p className="card-text">⭐4.8 (184) | 월간구매517</p>
+                <h5 className="card-price1">16,900<span className="won1">원</span></h5>
+                <h5 className="card-price2">16,740<span className="won2">원 💎추가 1%</span></h5>
+              </a>
+            </div>
+          </div>
+          <div className="card">
+            <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
+              <img src="https://contents.lotteon.com/itemimage/LD/66/36/77/65/1_/0/LD663677651_0_1.jpg" className="card-img-top" alt="..." />
+            </a>
+            <div
+              style={{
+              width: "100%",
+              borderBottom: "1px solid lightgray",
+              marginTop: "20px",
+                      }}
+            ></div>
+            <div className="card-body">
+              <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
+                <h5 className="card-title">아이시스8.0 생수 2L*24펫</h5>
+                <p className="card-text">⭐4.8 (184) | 월간구매517</p>
+                <h5 className="card-price1">16,900<span className="won1">원</span></h5>
+                <h5 className="card-price2">16,740<span className="won2">원 💎추가 1%</span></h5>
+              </a>
+            </div>
+          </div>
+          <div className="card">
+            <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
+              <img src="https://contents.lotteon.com/itemimage/LD/66/36/77/65/1_/0/LD663677651_0_1.jpg" className="card-img-top" alt="..." />
+            </a>
+            <div
+              style={{
+              width: "100%",
+              borderBottom: "1px solid lightgray",
+              marginTop: "20px",
+                      }}
+            ></div>
+            <div className="card-body">
+              <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
+                <h5 className="card-title">아이시스8.0 생수 2L*24펫</h5>
+                <p className="card-text">⭐4.8 (184) | 월간구매517</p>
+                <h5 className="card-price1">16,900<span className="won1">원</span></h5>
+                <h5 className="card-price2">16,740<span className="won2">원 💎추가 1%</span></h5>
+              </a>
+            </div>
+          </div>
+          <div className="card">
+            <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
+              <img src="https://contents.lotteon.com/itemimage/LD/66/36/77/65/1_/0/LD663677651_0_1.jpg" className="card-img-top" alt="..." />
+            </a>
+            <div
+              style={{
+              width: "100%",
+              borderBottom: "1px solid lightgray",
+              marginTop: "20px",
+                      }}
+            ></div>
             <div className="card-body">
               <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">              <h5 className="card-title">아이시스8.0 생수 2L*24펫</h5>
                 <p className="card-text">⭐4.8 (184) | 월간구매517</p>
@@ -584,6 +724,13 @@ function Song() {
             <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
               <img src="https://contents.lotteon.com/itemimage/LD/66/36/77/65/1_/0/LD663677651_0_1.jpg" className="card-img-top" alt="..." />
             </a>
+            <div
+              style={{
+              width: "100%",
+              borderBottom: "1px solid lightgray",
+              marginTop: "20px",
+                      }}
+            ></div>
             <div className="card-body">
               <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
                 <h5 className="card-title">아이시스8.0 생수 2L*24펫</h5>
@@ -597,6 +744,13 @@ function Song() {
             <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
               <img src="https://contents.lotteon.com/itemimage/LD/66/36/77/65/1_/0/LD663677651_0_1.jpg" className="card-img-top" alt="..." />
             </a>
+            <div
+              style={{
+              width: "100%",
+              borderBottom: "1px solid lightgray",
+              marginTop: "20px",
+                      }}
+            ></div>
             <div className="card-body">
               <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
                 <h5 className="card-title">아이시스8.0 생수 2L*24펫</h5>
@@ -610,6 +764,13 @@ function Song() {
             <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
               <img src="https://contents.lotteon.com/itemimage/LD/66/36/77/65/1_/0/LD663677651_0_1.jpg" className="card-img-top" alt="..." />
             </a>
+            <div
+              style={{
+              width: "100%",
+              borderBottom: "1px solid lightgray",
+              marginTop: "20px",
+                      }}
+            ></div>
             <div className="card-body">
               <a href="https://www.lotteon.com/p/product/LD663677651?areaCode=AD&entryPoint=ad&clickId=C3558861331">
                 <h5 className="card-title">아이시스8.0 생수 2L*24펫</h5>

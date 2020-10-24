@@ -16,7 +16,7 @@ import SystemUpdateAltIcon from "@material-ui/icons/SystemUpdateAlt";
 import Rating from "@material-ui/lab/Rating";
 import PhoneAndroidIcon from "@material-ui/icons/PhoneAndroid";
 import UsbSharpIcon from "@material-ui/icons/UsbSharp";
-import { Box } from "@material-ui/core";
+import { Box, FormControlLabel } from "@material-ui/core";
 import GetAppIcon from "@material-ui/icons/GetApp";
 import InputLabel from "@material-ui/core/InputLabel";
 import MenuItem from "@material-ui/core/MenuItem";
@@ -35,6 +35,8 @@ import Tab from "@material-ui/core/Tab";
 import MoodIcon from "@material-ui/icons/Mood";
 import ChatBubbleOutlineIcon from "@material-ui/icons/ChatBubbleOutline";
 
+import Checkbox from '@material-ui/core/Checkbox';
+import './Main.css'
 
 const styles = (theme) => ({
   root: {
@@ -99,6 +101,12 @@ const styles = (theme) => ({
     marginLeft: 20,
     width: 360,
   },
+  formControl3: {
+    
+    paddingRight : 60,
+    minWidth: 120,
+    width: 420,
+  },
   heading: {
     fontSize: theme.typography.pxToRem(15),
     fontWeight: theme.typography.fontWeightRegular,
@@ -115,6 +123,7 @@ const styles = (theme) => ({
 });
 
 
+
 class Main extends Component {
   constructor(props) {
       super(props);
@@ -125,6 +134,8 @@ class Main extends Component {
         price2: 0,
       };
     }
+
+  
 
    //함수 실행시 number값이 1 증가
 handleIncrease = () => {
@@ -162,8 +173,10 @@ handleDecrease2 = () => {
   });
 };
 
+
   render() {
      const { classes } = this.props;
+
 
   return (
     <div className="App">
@@ -178,7 +191,7 @@ handleDecrease2 = () => {
                 <div
                   style={{
                     marginLeft: "50px",
-                    marginTop: "20px",
+                    marginTop: "100px",
                     height: "100%",
                   }}
                 >
@@ -195,7 +208,7 @@ handleDecrease2 = () => {
                       style={{
                         blockSize: "50px",
                         fontSize: "16px",
-                        marginLeft: "-5px",
+                        marginLeft: "-90px",
                       }}
                     >
                       아이시스
@@ -203,7 +216,7 @@ handleDecrease2 = () => {
                     ㅤ
                     <IconButton
                       className={classes.iconButton1}
-                      style={{ marginLeft: "150px" }}
+                      style={{ marginLeft: "200px" }}
                     >
                       <FavoriteBorderIcon />
                     </IconButton>
@@ -211,7 +224,7 @@ handleDecrease2 = () => {
                       <SystemUpdateAltIcon />
                     </IconButton>
                   </div>
-                  <div style={{ marginTop: "-30px" }}>
+                  <div style={{marginLeft:"px", marginTop: "-30px", textAlign:"left" }}>
                     <h2>아이시스8.0에코 1.5L</h2>
                   </div>
                   <div
@@ -321,11 +334,56 @@ handleDecrease2 = () => {
                     <Select
                       labelId="demo-simple-select-outlined-label"
                       id="demo-simple-select-outlined"
-                      label="용량 1.5L"
+                      label="수량12펫"
                     >
-                      <MenuItem value={10}>12펫 7500원</MenuItem>
+                      <MenuItem value={10}>12펫 7960원</MenuItem>
                     </Select>
                   </FormControl>
+                  <h4 style={{textAlign:"left", marginLeft:"12px"}}>* 정기배송 / 정기 수거 🚛</h4>
+                 <div className={"formControlBack"}>
+                 <FormControl
+                    variant="outlined"
+                    className={classes.formControl3}
+                  >
+                    <InputLabel id="demo-simple-select-outlined-label">
+                      정기배송/ 정기수거
+                    </InputLabel>
+                    <Select
+                      labelId="demo-simple-select-outlined-label"
+                      id="demo-simple-select-outlined"
+                      label="용량 1.5L"
+                    >
+                      <MenuItem value={9}>정기배송</MenuItem>
+                      <MenuItem value={10}>정기배송 + 정기수거 </MenuItem>
+                      </Select>
+                  </FormControl>
+                 </div>
+                  
+                  {/* <div>
+                    <FormControlLabel
+                    style={{marginRight:"100px", fontSize : "15px"}}
+                    control={
+                      <Checkbox
+                      checked={this.state.isTrue}
+                      onChange={e => {
+                        this.setState({ isTrue: e.target.checked });
+                      }} 
+                    />}
+                    
+                    label ="정기배송🚛"
+                    />
+                      <FormControlLabel 
+                      style={{paddingRight:"100px"}}
+                    control={
+                      <Checkbox
+                      checked={this.state.isTrue}
+                      onChange={e => {
+                        this.setState({ isTrue: e.target.checked });
+                      }} 
+                    />}
+                    label ="정기수거🚛"
+                    />
+                  </div> */}
 
                   <div className="App">
                     <header className="App-header1">
@@ -725,9 +783,14 @@ handleDecrease2 = () => {
                         display: "inline",
                       }}
                     >
-                       <h8>유통기한 </h8>
+                      <div 
+                      style ={{textAlign: "left",
+                      marginLeft:"5px"}}>
+                      <h8>  유통기한 </h8>
 
-                      <h8> "적당해요"</h8> 
+                      <h8> "적당해요"</h8>
+                      </div>
+                      
                       <LinearProgress
                         variant="determinate"
                         style={{
@@ -743,9 +806,12 @@ handleDecrease2 = () => {
                         margin: "5px",
                       }}
                     >
+                      <div
+                      style = {{textAlign:"left"}}>
                       <h8>재구매의사 </h8>
 
                       <h8> "재구매의사 있어요"</h8>
+                      </div>
                       <LinearProgress
                         variant="determinate"
                         style={{
